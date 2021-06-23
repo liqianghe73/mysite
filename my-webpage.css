@@ -1,0 +1,201 @@
+.body_home {
+	font-family:Times New Roman;
+	background: url("images/cssbackground.jpg" );
+	color:white;
+	/*background-repeat: no-repeat;
+	background-size: auto 100%;*/ 
+}
+
+.top_background{
+	width:1350px;
+	height:250px;
+	border: 1px solid #e6e6ff;
+	border-radius: 15px;
+}
+
+.top_navigater {
+	background-color:#e6f2ff;
+	opacity:0.5;
+	overflow: hidden;
+	/*background-size: 50% auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+	padding: 0;	*/
+}
+
+.top_navigater a:hover {
+	background-color:#4da6ff;
+	/*color: black;*/
+}
+
+.top_navigater a {
+	font-weight: bold;
+	float: left;
+	color: #00004d;
+	text-align: center;
+	padding: 10px 14px;
+	text-decoration: overline;
+	font-size: 30px;
+}
+
+h1 {
+	/*position:relative; top:100px;*/
+}
+
+p {
+	/*position: relative; top:150px;*/
+	color: white;
+	font-size:25;
+}
+
+.white {
+	color:white;
+}
+	
+.body_anime {
+	background: url("images/bg5.jpg" );
+	color:#00134d;
+}
+
+
+
+.anime_reasons {
+	list-style-type: circle;
+	/*position:relative; top:100px;*/
+	font-size:18px;
+	
+}
+
+.anime_pictures {
+	border-radius: 50%;
+	width:300px;
+	height:230px;
+}
+
+.anime_pictures:hover {
+	-moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
+
+.anime_description {
+	font-size:26px;
+	width:900px;
+	position:relative; top:-1470px; left:360px;
+}
+
+.anime_gif {
+	height:150px;
+}
+
+.warnings {
+	color:red;
+	font-size: 15px;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.body_hobbies {
+	background: url("images/bg13.jpg" );
+}
+
+
+.container_0 {
+  position: relative;
+  width: 25%;
+}
+
+.image_0 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay_0 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container_0:hover .overlay_0 {
+  opacity: 1;
+}
+
+.text_0 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container_1 {
+  position: relative;
+  width: 25%;
+}
+
+.image_1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay_1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container_1:hover .overlay_1 {
+  opacity: 1;
+}
+
+.text_1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  
+
+  
+
+
+.contact_table {
+	font-size: 20px;
+	position: relative; left:730px; top:-410
+}
+
+
+
+.body_contact {
+	background: url("images/bg12.jpg" );
+}
+
+
